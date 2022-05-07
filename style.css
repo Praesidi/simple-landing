@@ -25,6 +25,7 @@ body {
 .nav {
   display: flex;
   align-items: center;
+  margin-bottom: 72px;
 }
 
 .logo {
@@ -53,11 +54,14 @@ ul {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  padding: 50px 0;
+  flex-wrap: wrap;
 }
 
 .intro-text {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start
 }
 
 .intro-text button {
@@ -74,6 +78,7 @@ ul {
   font-weight: 900;
   line-height: 52px;
   color: #F9FAF8;
+  margin: 0;
 }
 
 .intro-text p {
@@ -83,9 +88,11 @@ ul {
 
 .img-placeholder {
   flex: 1;
+  display: flex;
   text-align: center;
-  padding: 90px 10px;
+  justify-content: center;
   background-color: #E5E7EB;
+  padding: 100px 0;
 }
 
 .info-block {
